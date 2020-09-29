@@ -4,11 +4,12 @@ L'objectif de ce code est d'initialiser un client **Minio** afin de pouvoir mani
 Ici, après avoir lancé un container minio, on initialise un bucket dans lequel on place un fichier text. On retourne l'url de cet objet afin de pouvoir y accéder.
 
 ## Installation
-``` bash
 _se placer dans le répertoire WORKDIR pour créer le container minio_
+``` bash
 ./docker-entrypoint.sh
-
+```
 _se placer dans le répertoire minioConnect_
+```bash 
 source .venv_minio/bin/activate
 pip install -r requirements.txt
 ```
