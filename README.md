@@ -16,7 +16,7 @@ pip install -r requirements.txt
 
 ## Utilisation
 ```python
-python3 minio_script.py
+python3 minio_script.py # retourne un lien de téléchargement de l'objet placé dans le bucket 
 ```
 
 ## Quitter l'installation
