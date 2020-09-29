@@ -5,10 +5,10 @@ Ici, après avoir lancé un container minio, on initialise un bucket dans lequel
 
 ## Installation
 ``` bash
-*se placer dans le répertoire WORKDIR pour créer le container minio*
+_se placer dans le répertoire WORKDIR pour créer le container minio_
 ./docker-entrypoint.sh
 
-*se placer dans le répertoire minioConnect*
+_se placer dans le répertoire minioConnect_
 source .venv_minio/bin/activate
 pip install -r requirements.txt
 ```
@@ -22,4 +22,4 @@ python3 minio_script.py
 ```bash
 deactivate
 docker rm -f minio1
-``
+```
