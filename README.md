@@ -8,7 +8,7 @@ _se placer dans le répertoire WORKDIR pour créer le container minio_
 ``` bash
 ./docker-entrypoint.sh
 ```
-_se placer dans le répertoire minioConnect_
+_se placer dans le répertoire minioConnect pour lancer le script python_
 ```bash 
 source .venv_minio/bin/activate
 pip install -r requirements.txt
